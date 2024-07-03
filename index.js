@@ -1,4 +1,4 @@
-var numberOfDrum = document.querySelector(".drum").length;
+var numberOfDrum = document.querySelectorAll(".drum").length;
 
 for(var i = 0; i < numberOfDrum; i++) {
     document.querySelectorAll(".drum")[i].addEventListener("click", function () {
