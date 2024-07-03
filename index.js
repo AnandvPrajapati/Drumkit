@@ -57,6 +57,6 @@ function buttonAnimation(currKey) {
 
     setTimeout(function() {
         activeButton.classList.remove("pressed")
-    }, 1000);
+    }, 500);
 
 }
