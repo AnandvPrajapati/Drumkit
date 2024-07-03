@@ -1,7 +1,7 @@
 var numberOfDrum = document.querySelector(".drum").length;
 
 for(var i = 0; i < numberOfDrum; i++) {
-    document.querySelectorAll("button")[i].addEventListener("click", function () {
+    document.querySelectorAll(".drum")[i].addEventListener("click", function () {
         var buttoninnerHTML = this.innerHTML;
         makeSound(buttoninnerHTML);
         buttonAnimation(buttoninnerHTML);
